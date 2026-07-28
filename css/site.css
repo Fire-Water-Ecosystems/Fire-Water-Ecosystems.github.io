@@ -1422,9 +1422,10 @@ main {
   overflow: hidden;
   border: 1px solid rgba(39, 95, 75, 0.16);
   border-radius: 8px;
-  background:
+  /* background:
     radial-gradient(circle at 25% 25%, rgba(245, 3, 36, 0.2), transparent 55%),
-    #eef3eb;
+    #eef3eb; */
+  background: #eef3eb;
 }
 
 .resource-logo::before {
@@ -1447,7 +1448,7 @@ main {
   height: auto;
   max-height: 100%;
   object-fit: contain;
-  padding: 8px;
+  padding: 3px;
 }
 
 .resource-card strong {
