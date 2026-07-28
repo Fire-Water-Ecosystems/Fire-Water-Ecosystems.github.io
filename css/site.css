@@ -1422,9 +1422,6 @@ main {
   overflow: hidden;
   border: 1px solid rgba(39, 95, 75, 0.16);
   border-radius: 8px;
-  /* background:
-    radial-gradient(circle at 25% 25%, rgba(245, 3, 36, 0.2), transparent 55%),
-    #eef3eb; */
   background: #eef3eb;
 }
 
@@ -1433,8 +1430,8 @@ main {
   width: 32px;
   height: 32px;
   border-radius: 8px;
-  background: linear-gradient(135deg, rgba(46, 3, 240, 0.7), rgba(250, 2, 2, 0.64));
-  opacity: 0.46;
+  background: linear-gradient(135deg, rgba(39, 95, 75, 0.42), rgba(212, 157, 50, 0.36));
+  opacity: 0.5;
 }
 
 .resource-logo:has(img)::before {
